@@ -38,7 +38,7 @@ const Products = () => {
 
   return (
     <div className="container m-auto p-4">
-      <h1 className="text-3xl font-bold mb-6">Products</h1>
+      <h1 className="text-3xl font-bold mb-6">all Products</h1>
       <ul className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
         {products.map(product => (
           <li key={product.id} className="border rounded-lg p-4 shadow-lg">

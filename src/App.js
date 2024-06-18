@@ -33,16 +33,15 @@ const App = () => {
     setCartItems(updatedCart);
     localStorage.setItem('cart', JSON.stringify(updatedCart));
   };
-  
+
   return (
-    <Router>
+    <Router basename="/woosite.github.io">
       <Header cartItems={cartItems} handleRemoveItem={handleRemoveItem} handleQuantityChange={handleQuantityChange} />
       <Routes>
         <Route path="/" element={<Products />} />
         <Route path="/product/:id" element={<SingleProduct />} />
         <Route path="/category/:categorySlug" element={<Category />} />
         <Route path="/categorylist" element={<Categorylist />} />
-        {/* Make sure to pass cartItems to Cart component */}
         <Route path="/cart" element={<Cart cartItems={cartItems} />} />
         <Route path="/checkout" element={<Checkout />} />
       </Routes>
