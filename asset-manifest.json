@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/woosite.github.io/static/css/main.e6c13ad2.css",
+    "main.js": "/woosite.github.io/static/js/main.36f071cf.js",
+    "static/js/453.ec0bbb7f.chunk.js": "/woosite.github.io/static/js/453.ec0bbb7f.chunk.js",
+    "index.html": "/woosite.github.io/index.html",
+    "main.e6c13ad2.css.map": "/woosite.github.io/static/css/main.e6c13ad2.css.map",
+    "main.36f071cf.js.map": "/woosite.github.io/static/js/main.36f071cf.js.map",
+    "453.ec0bbb7f.chunk.js.map": "/woosite.github.io/static/js/453.ec0bbb7f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.36f071cf.js"
+  ]
+}
